@@ -1,0 +1,77 @@
+/* styles.css */
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(36, 36, 36);
+}
+
+em {
+    font-style: italic;
+    font-size: 13px;
+    display: block;
+    margin-top: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: 900;
+  padding-left: 10%;
+  background-color: rgb(167, 167, 167) ;
+  color: rgb(36, 36, 36);
+}
+
+.subheader {
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button{
+    background-color: rgb(8, 8, 8);
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 5px;
+    border: none;
+    padding: 16px 12px;
+}
+
+button:active{
+    background-color: rgb(149, 149, 149);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+/* Add styles here to customize the appearance of your app */

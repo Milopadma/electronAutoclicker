@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta 
+        http-equiv="Content-Security-Policy" 
+        content="default-src 'self'; 
+          script-src 'self'; 
+          font-src 'self' https://fonts.gstatic.com;
+          style-src 'self' https://fonts.googleapis.com">
+    <link href="./styles.css" rel="stylesheet">
+    <!-- roboto google API  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <title>Quick Autoclicker v.2</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Auto Clicker</h1>
+      <div class="subheader">How many times do you want to click? <em> &LeftAngleBracket; theres a 1.5 second wait time before it starts&RightAngleBracket;</em> </div>
+      <div class="input-container">
+        <input title="input" placeholder="e.g 32" type="number" id="click-count" value="1" min="1" max="100" step="1">
+        <div class="buttonContainer">
+          <button id="L-click-button">Left Click</button>
+          <button id="R-click-button">Right Click</button>
+        </div>
+      </div>
+
+
+
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

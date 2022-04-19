@@ -1,0 +1,24 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.mylo.autoclicker
+dmg:
+  contents:
+    - x: 110
+      'y': 150
+    - x: 240
+      'y': 150
+      type: link
+      path: /Applications
+linux:
+  target:
+    - AppImage
+    - deb
+win:
+  target:
+    - portable
+  icon: build/icon.ico
+portable:
+  artifactName: autoclicker_portable.exe
+files: []
+electronVersion: 18.0.3
