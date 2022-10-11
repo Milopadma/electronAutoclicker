@@ -52,7 +52,7 @@
 
   },
   "dependencies": {
-    "@jitsi/robotjs": "^0.6.9"
+    "@jitsi/robotjs": "^0.6.11"
 
   }
 }
